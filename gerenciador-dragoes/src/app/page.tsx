@@ -1,3 +1,12 @@
+import { redirect } from 'next/navigation';
+
+export default function HomePage() {
+  // Redireciona a rota "/" direto para a lista de dragões
+  // O middleware cuidará de mandar para /login caso não esteja autenticado
+  redirect('/dragons');
+}
+
+/*
 import Image from "next/image";
 
 export default function Home() {
@@ -101,3 +110,4 @@ export default function Home() {
     </div>
   );
 }
+*/
