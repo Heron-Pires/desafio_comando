@@ -1,3 +1,4 @@
+// Função utilitária do Next.js para redirecionamento de rotas no lado do servidor
 import { redirect } from 'next/navigation';
 
 export default function HomePage() {
